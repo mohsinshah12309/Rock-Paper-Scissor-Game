@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(220, 235, 166);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #30455d;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.choice {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+#user-score, #comp-score {
+  font-size: 3rem;
+}
+
+.msg-container {
+  margin-top: 3rem;
+}
+
+#msg {
+  background-color: #081b31;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#finishBtn {
+  background-color: brown;
+}
+
+#restartBtn {
+  background-color: #1e7c1e;
+  margin-left: 1rem;
+}
+
+.welcome-container {
+  margin-top: 5rem;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-container input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+
+.welcome-container button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: green;
+}
